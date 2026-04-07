@@ -24,6 +24,19 @@ browser. O sistema abrange as seguintes áreas funcionais:
 
 • Pesquisa de conteúdos na plataforma
 
+## Identificação dos Stakeholders
+
+Os seguintes intervenientes foram identificados no âmbito do projeto:
+
+| Stakeholder | Papel | Interesse |
+|:------------|:------|:----------|
+| Alunos Autenticados | Utilizador principal | Aceder, partilhar materiais e estudar com IA |
+| Professores | Utilizador secundário | Consultar feedback e disponibilizar materiais |
+| Administradores | Gestão da plataforma | Gerir utilizadores, disciplinas e conteúdos |
+| Visitantes | Acesso limitado | Visualizar informação pública sem registo |
+| Equipa de desenvolvimento | Criadores do sistema | Entregar o projeto dentro do prazo e requisitos |
+| Instituto Piaget | Cliente / Orientador | Plataforma funcional e útil para os alunos |
+
 # 3. Requisitos Funcionais
 
 ## 3.1 Autenticação e Gestão de Utilizadores
