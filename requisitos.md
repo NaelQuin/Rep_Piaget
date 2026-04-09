@@ -42,15 +42,14 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 
 | ID | Requisito | Prioridade |
 |:---|:----------|:----------:|
-| RF01 | O sistema deve permitir o registo de novos utilizadores com e-mail pessoal, institucional e palavra-passe|  Alta |
+| RF01 | O sistema deve permitir o registo de novos utilizadores com e-mail pessoal, institucional e palavra-passe |  Alta |
 | RF02 | O sistema deve permitir o login com e-mail e palavra-passe |  Alta |
-| RF03 |  O sistema deve validar a robustez da palavra-passe definida pelo utilizador no momento do registo ou alteração, impedindo a utilização de credenciais fracas seguindo os critérios:  
- Comprimento Mínimo: A palavra-passe deve conter, no mínimo, 8 caracteres.
- Dicionário de Proibições: O sistema deve rejeitar sequências numéricas ou alfabéticas triviais (ex: 12345678, password, qwerty).
- Dados do Utilizador: Não deve ser permitido o uso do nome de utilizador ou e-mail como parte da palavra-passe.| Média |
-| RF04 | O sistema deve permitir a recuperação de palavra-passe por e-mail | Alta |
-| RF05 | O sistema deve distinguir os perfis: Utilizador(Autenticado),Visitante e Admin |  Alta |
-| RF06 | O administrador deve poder gerir contas (criar, suspender, eliminar) | Alta |
+| RF03 | O sistema deve validar a robustez da palavra-passe, exigindo o mínimo de 8 caracteres |  Média |
+| RF03a | O sistema deve rejeitar sequências triviais como `12345678`, `password` ou `qwerty` |  Média |
+| RF03b | O sistema não deve permitir o uso do nome de utilizador ou e-mail como parte da palavra-passe |  Média |
+| RF04 | O sistema deve permitir a recuperação de palavra-passe por e-mail |  Alta |
+| RF05 | O sistema deve distinguir os perfis: Utilizador Autenticado, Visitante e Admin |  Alta |
+| RF06 | O administrador deve poder gerir contas (criar, suspender, eliminar) |  Alta |
 
 ## 3.2 Materiais Académicos
 
