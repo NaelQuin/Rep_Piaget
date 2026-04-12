@@ -55,7 +55,7 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 
 | ID | Requisito | Prioridade |
 |:---|:----------|:----------:|
-| RF07 | Os alunos devem poder fazer upload de ficheiros (PDF, DOCX, PPTX) |  Alta |
+| RF07 | Os utilizadores autenticados devem poder fazer upload de ficheiros (PDF, DOCX, PPTX) |  Alta |
 | RF08 | Os utilizadores autenticados devem poder fazer download dos materiais disponíveis |  Alta |
 | RF09 | Os materiais devem estar organizados por disciplina e tipo (resumo, exame, apontamento) | Alta |
 | RF10 | O sistema deve permitir a visualização de metadados do ficheiro (autor, data, disciplina) | Média |
@@ -71,40 +71,41 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 | RF20 | Os utilizadores autenticados devem poder votar +1 ou -1 em cada material | Baixa |
 | RF21 | Cada utilizador só pode votar uma vez por material (pode alterar o voto) | Média |
 | RF22 | Um material deve ser automaticamente removido ao atingir um limite de votos negativos (-5) | Média |
+| RF23 | O utilizador deve poder marcar materiais como "Favoritos" para acesso rápido  | Média 
 
 ## 3.3 Feedback de Disciplinas
 
 | ID | Requisito | Prioridade |
 |:---|:----------|:----------:|
-| RF23 | Os alunos devem poder submeter feedback anónimo sobre as disciplinas |  Baixa |
-| RF24 | O sistema deve permitir a consulta do feedback agregado por disciplina | Baixa |
-| RF25 | O feedback deve incluir classificação numérica e comentário textual |  Média |
-| RF26 | O sistema deve impedir a submissão de múltiplos feedbacks pelo mesmo utilizador na mesma disciplina |  Baixa |
+| RF24 | Os alunos devem poder submeter feedback anónimo sobre as disciplinas |  Baixa |
+| RF25 | O sistema deve permitir a consulta do feedback agregado por disciplina | Baixa |
+| RF26 | O feedback deve incluir classificação numérica e comentário textual |  Média |
+| RF27 | O sistema deve impedir a submissão de múltiplos feedbacks pelo mesmo utilizador na mesma disciplina |  Baixa |
 
 ##  3.4 Chatbot de Apoio ao Estudo (IA)
 
 | ID | Requisito | Prioridade |
 |:---|:----------|:----------:|
-| RF27 | O sistema deve disponibilizar um chatbot integrado por disciplina | Média |
-| RF28 | O chatbot deve responder a perguntas com base nos materiais carregados na disciplina | Média |
-| RF29 | O utilizador deve poder iniciar, continuar e terminar sessões de estudo com o chatbot | Baixa |
-| RF30 | O chatbot deve gerar quizzes automáticos com base nos materiais da disciplina | Baixa |
-| RF31 | O sistema deve guardar o histórico de conversas por utilizador | Baixa |
-| RF32 | O chatbot deve indicar a fonte (material) de onde retirou a resposta |Baixa |
+| RF28 | O sistema deve disponibilizar um chatbot integrado por disciplina | Média |
+| RF29 | O chatbot deve responder a perguntas com base nos materiais carregados na disciplina | Média |
+| RF30 | O utilizador deve poder iniciar, continuar e terminar sessões de estudo com o chatbot | Baixa |
+| RF31 | O chatbot deve gerar quizzes automáticos com base nos materiais da disciplina | Baixa |
+| RF32 | O sistema deve guardar o histórico de conversas por utilizador | Baixa |
+| RF33 | O chatbot deve indicar a fonte (material) de onde retirou a resposta |Baixa |
 | RF33 | O sistema deve impor um limite diário de mensagens por utilizador no chatbot | Baixa |
-| RF34 | O utilizador deve poder inserir a sua própria chave de API OpenAI para remover o limite diário | Baixa |
-| RF35 | O sistema deve permitir que o utilizador avalie a utilidade da resposta da IA (voto positivo/negativo) para melhoria do sistema| Baixa |
-| RF36 | O utilizador deve poder escolher o contexto do chatbot: toda a Unidade Curricular ou apenas um ficheiro específico | Baixa |
+| RF35 | O utilizador deve poder inserir a sua própria chave de API OpenAI para remover o limite diário | Baixa |
+| RF36 | O sistema deve permitir que o utilizador avalie a utilidade da resposta da IA (voto positivo/negativo) para melhoria do sistema| Baixa |
+| RF37 | O utilizador deve poder escolher o contexto do chatbot: toda a Unidade Curricular ou apenas um ficheiro específico | Baixa |
 
 
 ## 3.5 Pesquisa de Conteúdos
 
 | ID | Requisito | Prioridade |
 |:---|:----------|:----------:|
-| RF37 | O sistema deve permitir a pesquisa de materiais por nome e disciplina | Alta |
-| RF38 | Os resultados de pesquisa devem ser filtráveis e ordenáveis |Média |
-| RF39 | A pesquisa deve retornar resultados em tempo real (à medida que o utilizador escreve) | Baixa |
-| RF40 | O utilizador deve poder marcar e desmarcar qualquer material como favorito para acesso mais rápido | Baixa |
+| RF38 | O sistema deve permitir a pesquisa de materiais por nome e disciplina | Alta |
+| RF39 | Os resultados de pesquisa devem ser filtráveis e ordenáveis |Média |
+| RF40 | A pesquisa deve retornar resultados em tempo real (à medida que o utilizador escreve) | Baixa |
+| RF41 | O utilizador deve poder marcar e desmarcar qualquer material como favorito para acesso mais rápido | Baixa |
 
 
 # 4. Requisitos Não Funcionais
