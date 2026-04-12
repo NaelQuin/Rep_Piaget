@@ -30,7 +30,7 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 
 | Stakeholder | Papel | Interesse |
 |:------------|:------|:----------|
-| Autenticados | Utilizador principal | Aceder, partilhar materiais e estudar com IA |
+| Utilizadores Autenticados | Utilizador principal | Aceder, partilhar materiais e estudar com IA |
 | Administradores | Gestão da plataforma | Gerir utilizadores, disciplinas e conteúdos |
 | Visitantes | Acesso limitado | Visualizar informação pública sem registo |
 | Equipa de desenvolvimento | Criadores do sistema | Entregar o projeto dentro do prazo e requisitos |
