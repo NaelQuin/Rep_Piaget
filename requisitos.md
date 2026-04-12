@@ -42,7 +42,7 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 
 | ID | Requisito | Prioridade |
 |:---|:----------|:----------:|
-| RF01 | O sistema deve permitir o registo de novos utilizadores com e-mail pessoal, institucional e palavra-passe |  Alta |
+| RF01 | O sistema deve permitir o registo de novos utilizadores apenas com e-mail institucional e palavra-passe |  Alta |
 | RF02 | O sistema deve permitir o login com e-mail e palavra-passe |  Alta |
 | RF03 | O sistema deve validar a robustez da palavra-passe, exigindo o mínimo de 8 caracteres |  Média |
 | RF03a | O sistema deve rejeitar sequências triviais como `12345678`, `password` ou `qwerty` |  Média |
