@@ -71,7 +71,7 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 | RF21 | Os resultados de pesquisa devem ser filtráveis e ordenáveis |Média |
 | RF22 | A pesquisa deve retornar resultados em tempo real (à medida que o utilizador escreve) | Baixa |
 | RF23 | O administrador deve poder revogar a permissão de um utilizador para fazer upload de ficheiros | Baixa |
-| RF25 | Os utilizadores autenticados devem poder submeter feedback anónimo sobre as disciplinas |  Baixa |
+| RF24 | Os utilizadores autenticados devem poder submeter feedback anónimo sobre as disciplinas |  Baixa |
 | RF25 | O sistema deve permitir a consulta do feedback agregado por disciplina | Baixa |
 | RF26 | O feedback deve incluir classificação numérica e comentário textual |  Média |
 | RF27 | O sistema deve impedir a submissão de múltiplos feedbacks pelo mesmo utilizador na mesma disciplina |  Baixa |
