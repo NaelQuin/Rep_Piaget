@@ -60,7 +60,7 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 | RF09 | Os materiais devem estar organizados por disciplina e tipo (resumo, exame, apontamento) | Alta |
 | RF10 | O sistema deve permitir a visualização de metadados do ficheiro (autor, data, disciplina) | Média |
 | RF11 | O administrador deve poder remover materiais inadequados | Alta |
-| RF12 | O sistema deve limitar o tamanho máximo de ficheiro por upload de no mínimo 20 mb |  Média |
+| RF12 | O sistema deve restringir o upload a um tamanho máximo de ficheiro (predefinido para 20 MB), sendo este valor configurável  |  Média |
 | RF13 | Todos os ficheiros submetidos devem ficar em estado pendente até aprovação por um administrador | Alta |
 | RF14 | O administrador deve poder aprovar ou rejeitar ficheiros submetidos | Alta |
 | RF15 | Apenas ficheiros aprovados devem estar disponíveis para download | Alta |
