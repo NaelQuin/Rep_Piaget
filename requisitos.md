@@ -92,7 +92,7 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 | RF31 | O chatbot deve gerar quizzes automáticos com base nos materiais da disciplina | Baixa |
 | RF32 | O sistema deve guardar o histórico de conversas por utilizador | Baixa |
 | RF33 | O chatbot deve indicar a fonte (material) de onde retirou a resposta |Baixa |
-| RF33 | O sistema deve impor um limite diário de mensagens por utilizador no chatbot | Baixa |
+| RF34 | O sistema deve impor um limite diário de mensagens por utilizador no chatbot | Baixa |
 | RF35 | O utilizador deve poder inserir a sua própria chave de API OpenAI para remover o limite diário | Baixa |
 | RF36 | O sistema deve permitir que o utilizador avalie a utilidade da resposta da IA (voto positivo/negativo) para melhoria do sistema| Baixa |
 | RF37 | O utilizador deve poder escolher o contexto do chatbot: toda a Unidade Curricular ou apenas um ficheiro específico | Baixa |
