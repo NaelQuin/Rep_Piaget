@@ -58,6 +58,7 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 | RF08 | Os utilizadores autenticados devem poder fazer download dos materiais disponíveis |  Alta |
 | RF09 | Os materiais devem estar organizados por disciplina e tipo (resumo, exame, apontamento) | Alta |
 | RF10 | O sistema deve permitir a visualização de metadados do ficheiro (autor, data, disciplina) | Média |
+<<<<<<< HEAD
 | RF11 | O sistema deve limitar o tamanho máximo de ficheiro por upload de no mínimo 20 mb |  Média |
 | RF12 | O utilizador autenticado eliminar e editar os seus ficheiros submetidos | Alta |
 | RF13 | O administrador deve poder eliminar ficheiros submetidos | Alta |
@@ -76,6 +77,21 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 | RF26 | O sistema deve permitir a consulta do feedback agregado por disciplina | Baixa |
 | RF27 | O feedback deve incluir classificação numérica e comentário textual |  Média |
 | RF28 | O sistema deve impedir a submissão de múltiplos feedbacks pelo mesmo utilizador na mesma disciplina |  Baixa |
+=======
+| RF11 | O administrador deve poder remover materiais inadequados | Alta |
+| RF12 | O sistema deve restringir o upload a um tamanho máximo de ficheiro (predefinido para 20 MB), sendo este valor configurável  |  Média |
+| RF13 | Todos os ficheiros submetidos devem ficar em estado pendente até aprovação por um administrador | Alta |
+| RF14 | O administrador deve poder aprovar ou rejeitar ficheiros submetidos | Alta |
+| RF15 | Apenas ficheiros aprovados devem estar disponíveis para download | Alta |
+| RF16 | Os ficheiros devem possuir um estado associado (pendente, aprovado ou rejeitado) | Baixa |
+| RF17 | O utilizador deve ser notificado quando o seu ficheiro for aprovado ou rejeitado | Média |
+| RF18 | O utilizador deve poder editar ou eliminar os seus ficheiros antes e depois da aprovação | Média |
+| RF19 | Os utilizadores registados devem poder submeter feedback sobre as disciplinas e materiais. O feedback pode ser apresentado de forma anónima para outros utilizadores| Alta |
+| RF20 | Os utilizadores autenticados devem poder votar +1 ou -1 em cada material | Baixa |
+| RF21 | Cada utilizador só pode votar uma vez por material (pode alterar o voto) | Média |
+| RF22 | Um material deve ser automaticamente removido ao atingir um limite de votos negativos (-5) | Média |
+| RF23 | O utilizador deve poder marcar materiais como "Favoritos" para acesso rápido  | Média | 
+>>>>>>> ecb7fab4e505d1df0d101f05b498fd1157f72463
 
 ##  3.3 Chatbot de Apoio ao Estudo (IA)
 
