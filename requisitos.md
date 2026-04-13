@@ -61,37 +61,36 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 | RF11| O utilizador autenticado pode eliminar e editar os seus ficheiros submetidos | Alta |
 | RF12 | O administrador deve poder eliminar ficheiros submetidos | Alta |
 | RF13 | O utilizador autenticado deve ser notificado quando o seu ficheiro for submetido | Média |
-| RF14 | O utilizador autenticado deve poder editar ou eliminar os seus ficheiros antes da submisão | Média |
-| RF15 | Os utilizadores autenticados devem poder submeter feedback sobre as disciplinas e materiais.| Alta |
-| RF16 | Os utilizadores autenticados devem poder votar +1 ou -1 em cada material | Baixa |
-| RF17 | Cada utilizador autenticado só pode votar uma vez por material (pode alterar o voto) | Média |
-| RF18 | Um material deve ser automaticamente removido ao atingir um limite de votos negativos (-5) | Média |
-| RF19 | O utilizador autenticado deve poder marcar materiais como "Favoritos" para acesso rápido  | Média |
-| RF20 | O sistema deve permitir a pesquisa de materiais por nome e disciplina | Alta |
-| RF21 | Os resultados de pesquisa devem ser filtráveis e ordenáveis |Média |
-| RF22 | A pesquisa deve retornar resultados em tempo real (à medida que o utilizador escreve) | Baixa |
-| RF23 | O administrador deve poder revogar a permissão de um utilizador para fazer upload de ficheiros | Baixa |
-| RF24 | Os utilizadores autenticados devem poder submeter feedback anónimo sobre as disciplinas |  Baixa |
-| RF25 | O sistema deve permitir a consulta do feedback agregado por disciplina | Baixa |
-| RF26 | O feedback deve incluir classificação numérica e comentário textual |  Média |
-| RF27 | O sistema deve impedir a submissão de múltiplos feedbacks pelo mesmo utilizador na mesma disciplina |  Baixa |
-| RF28 | O administrador deve poder remover materiais submetidos| Alta |
-| RF29 | O sistema deve restringir o upload a um tamanho máximo de ficheiro (predefinido para 20 MB), sendo este valor configurável  |  Média |
+| RF14 | Os utilizadores autenticados devem poder submeter feedback sobre as disciplinas e materiais.| Alta |
+| RF15 | Os utilizadores autenticados devem poder votar +1 ou -1 em cada material | Baixa |
+| RF16 | Cada utilizador autenticado só pode votar uma vez por material (pode alterar o voto) | Média |
+| RF17 | Um material deve ser automaticamente removido ao atingir um limite de votos negativos (-5) | Média |
+| RF18 | O utilizador autenticado deve poder marcar materiais como "Favoritos" para acesso rápido  | Média |
+| RF19 | O sistema deve permitir a pesquisa de materiais por nome e disciplina | Alta |
+| RF20 | Os resultados de pesquisa devem ser filtráveis e ordenáveis |Média |
+| RF21 | A pesquisa deve retornar resultados em tempo real (à medida que o utilizador escreve) | Baixa |
+| RF22 | O administrador deve poder revogar a permissão de um utilizador para fazer upload de ficheiros | Baixa |
+| RF23 | Os utilizadores autenticados devem poder submeter feedback anónimo sobre as disciplinas |  Baixa |
+| RF24 | O sistema deve permitir a consulta do feedback agregado por disciplina | Baixa |
+| RF25 | O feedback deve incluir classificação numérica e comentário textual |  Média |
+| RF26 | O sistema deve impedir a submissão de múltiplos feedbacks pelo mesmo utilizador na mesma disciplina |  Baixa |
+| RF27 | O administrador deve poder remover materiais submetidos| Alta |
+| RF28 | O sistema deve restringir o upload a um tamanho máximo de ficheiro (predefinido para 20 MB), sendo este valor configurável  |  Média |
 
 ##  3.3 Chatbot de Apoio ao Estudo (IA)
 
 | ID | Requisito | Prioridade |
 |:---|:----------|:----------:|
-| RF30 | O sistema deve disponibilizar um chatbot integrado por disciplina | Média |
-| RF31 | O chatbot deve responder a perguntas com base nos materiais carregados na disciplina | Média |
-| RF32 | O utilizador deve poder iniciar, continuar e terminar sessões de estudo com o chatbot | Baixa |
-| RF33 | O chatbot deve gerar quizzes automáticos com base nos materiais da disciplina | Baixa |
-| RF34 | O sistema deve guardar o histórico de conversas por utilizador | Baixa |
-| RF35 | O chatbot deve indicar a fonte (material) de onde retirou a resposta |Baixa |
-| RF36 | O sistema deve impor um limite diário de mensagens por utilizador no chatbot | Baixa |
-| RF37 | O utilizador autenticado deve poder inserir a sua própria chave de API OpenAI para remover o limite diário | Baixa |
-| RF38 | O sistema deve permitir que o utilizador avalie a utilidade da resposta da IA (voto positivo/negativo) para melhoria do sistema| Baixa |
-| RF39 | O utilizador autenticado deve poder escolher o contexto do chatbot: toda a Unidade Curricular ou apenas um ficheiro específico | Baixa |
+| RF29 | O sistema deve disponibilizar um chatbot integrado por disciplina | Média |
+| RF30 | O chatbot deve responder a perguntas com base nos materiais carregados na disciplina | Média |
+| RF31 | O utilizador deve poder iniciar, continuar e terminar sessões de estudo com o chatbot | Baixa |
+| RF32 | O chatbot deve gerar quizzes automáticos com base nos materiais da disciplina | Baixa |
+| RF33 | O sistema deve guardar o histórico de conversas por utilizador | Baixa |
+| RF34 | O chatbot deve indicar a fonte (material) de onde retirou a resposta |Baixa |
+| RF35 | O sistema deve impor um limite diário de mensagens por utilizador no chatbot | Baixa |
+| RF36 | O utilizador autenticado deve poder inserir a sua própria chave de API OpenAI para remover o limite diário | Baixa |
+| RF37 | O sistema deve permitir que o utilizador avalie a utilidade da resposta da IA (voto positivo/negativo) para melhoria do sistema| Baixa |
+| RF38 | O utilizador autenticado deve poder escolher o contexto do chatbot: toda a Unidade Curricular ou apenas um ficheiro específico | Baixa |
 
 # 4. Requisitos Não Funcionais
 
