@@ -71,7 +71,7 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 | RF20 | Os utilizadores autenticados devem poder votar +1 ou -1 em cada material | Baixa |
 | RF21 | Cada utilizador só pode votar uma vez por material (pode alterar o voto) | Média |
 | RF22 | Um material deve ser automaticamente removido ao atingir um limite de votos negativos (-5) | Média |
-| RF23 | O utilizador deve poder marcar materiais como "Favoritos" para acesso rápido  | Média 
+| RF23 | O utilizador deve poder marcar materiais como "Favoritos" para acesso rápido  | Média | 
 
 ## 3.3 Feedback de Disciplinas
 
