@@ -37,6 +37,8 @@ Os seguintes intervenientes foram identificados no âmbito do projeto:
 
 # 3. Requisitos Funcionais
 
+A seguir encontram-se os requisitos funcionais subdivididos em áreas funcionais. Entende-se que a POC (Proof of Concept) conterá, ao menos, os requisitos marcados com prioridade "Alta".
+
 ## 3.1 Autenticação e Gestão de Utilizadores
 
 | ID | Requisito | Prioridade |
